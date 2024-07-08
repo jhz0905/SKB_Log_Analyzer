@@ -8,6 +8,8 @@ logdir = "\log"
 nextdir = nowdir+logdir
 os.chdir(str(nextdir))
 
+file_list = os.listdir(os.getcwd())
+
 # Parsing #
 
 for file_num in range(len(file_list)):
